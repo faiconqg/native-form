@@ -1,0 +1,42 @@
+{
+  "name": "@faicon/native-form",
+  "version": "0.0.1",
+  "description": "Form for Native Base. https://github.com/faiconqg/native-form",
+  "main": "src/index.js",
+  "files": [
+    "src/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faiconqg/native-form.git"
+  },
+  "keywords": [
+    "form",
+    "automatic",
+    "autoform",
+    "react",
+    "layout",
+    "form generator",
+    "generator",
+    "builder"
+  ],
+  "author": "faicon.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/faiconqg/native-form/issues"
+  },
+  "homepage": "https://github.com/faiconqg/native-form#readme",
+  "dependencies": {
+    "react-native-modal-datetime-picker": "^4.13.0",
+    "@expo/vector-icons": "^6.2.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.17.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-react": "^7.6.1",
+    "native-base": "^2.3.8",
+    "react": "^16.2.0",
+    "react-native": "^0.52.2"
+  }
+}

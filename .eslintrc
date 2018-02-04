@@ -1,0 +1,12 @@
+{
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+
+  "parser": "babel-eslint",
+
+  "rules": {
+    "quotes": ["error", "single"],
+    "semi": [2, "never"],
+    "no-unused-vars": [2, { "vars": "all", "args": "none" }],
+    "no-console": 0
+  }
+}
