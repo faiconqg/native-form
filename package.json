@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Form for Native Base. https://github.com/faiconqg/native-form",
   "main": "src/index.js",
+  "scripts": {
+    "dev": "sync-files --watch src ../react-native-tests/node_modules/@faicon/native-form/src"
+  },
   "files": [
     "src/"
   ],
