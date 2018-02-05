@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { Item, Input, Label } from 'native-base'
 
-export default class InputData extends Component {
+export default class TextView extends Component {
   static propTypes = {
     form: PropTypes.object,
     itemRenderer: PropTypes.func,

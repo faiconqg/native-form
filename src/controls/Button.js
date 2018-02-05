@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { Button, Text } from 'native-base'
+import { Button as NativeButton, Text } from 'native-base'
 
-export default class FullButton extends Component {
+export default class Button extends Component {
   static propTypes = {
     form: PropTypes.object,
     isPrimary: PropTypes.bool,
@@ -12,7 +12,7 @@ export default class FullButton extends Component {
 
   render() {
     return (
-      <Button
+      <NativeButton
         transparent
         full
         primary={this.props.isPrimary}
@@ -20,7 +20,7 @@ export default class FullButton extends Component {
         onPress={this.props.onPress}
       >
         <Text>{this.props.label}</Text>
-      </Button>
+      </NativeButton>
     )
   }
 }
