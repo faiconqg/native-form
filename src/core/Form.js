@@ -7,7 +7,7 @@ export default class Form extends Component {
 
   static propTypes = {
     children: PropTypes.any,
-    dataProvider: PropTypes.any,
+    dataProvider: PropTypes.any
   }
 
   get dataProvider() {
@@ -19,7 +19,7 @@ export default class Form extends Component {
   }
 
   static defaultProps = {
-    dataProvider: { teste: 1 }
+    dataProvider: {}
   }
 
   componentDidMount() {
@@ -57,6 +57,10 @@ export default class Form extends Component {
   }
 
   render() {
-    return <NativeForm>{this.state.children}</NativeForm>
+    return (
+      <NativeForm style={{ alignSelf: 'stretch' }}>
+        {this.state.children}
+      </NativeForm>
+    )
   }
 }

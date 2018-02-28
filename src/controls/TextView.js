@@ -8,7 +8,6 @@ export default class TextView extends Component {
     itemRenderer: PropTypes.func,
     dataField: PropTypes.string,
     label: PropTypes.any,
-    description: PropTypes.any,
     autoCapitalize: PropTypes.string,
     keyboardType: PropTypes.any,
     isPassword: PropTypes.bool,
@@ -22,7 +21,7 @@ export default class TextView extends Component {
     this.props.form.attachInput(this)
   }
 
-  onSubmitEditing = event => {
+  onSubmitEditing = () => {
     const nextItem = this.props.form.getNextItem(this)
     if (nextItem) {
       nextItem.focus()

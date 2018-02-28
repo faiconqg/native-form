@@ -8,8 +8,7 @@ export default class DatePicker extends Component {
     form: PropTypes.object,
     itemRenderer: PropTypes.func,
     dataField: PropTypes.string,
-    label: PropTypes.any,
-    description: PropTypes.string
+    label: PropTypes.any
   }
 
   state = {

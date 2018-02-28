@@ -10,7 +10,7 @@ import {
   Text
 } from 'native-base'
 
-export default class DualRadioField extends Component {
+export default class RadioGroup extends Component {
   static propTypes = {
     form: PropTypes.object,
     dataField: PropTypes.string,
